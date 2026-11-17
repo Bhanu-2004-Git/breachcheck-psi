@@ -1,0 +1,60 @@
+[ RUN  ] rfc9497_oprf_mode_vectors
+[  OK  ] rfc9497_oprf_mode_vectors (0 ms)
+[ RUN  ] rfc9497_voprf_mode_vectors_incl_batched_proof
+[  OK  ] rfc9497_voprf_mode_vectors_incl_batched_proof (1 ms)
+[ RUN  ] dleq_rejects_wrong_key_and_tampering
+[  OK  ] dleq_rejects_wrong_key_and_tampering (47 ms)
+[ RUN  ] oprf_blinded_equals_direct_evaluation
+[  OK  ] oprf_blinded_equals_direct_evaluation (3 ms)
+[ RUN  ] zt_roots_poly_and_interpolation
+[  OK  ] zt_roots_poly_and_interpolation (12 ms)
+[ RUN  ] label_encoding_roundtrip_and_check_bits
+[  OK  ] label_encoding_roundtrip_and_check_bits (0 ms)
+[ RUN  ] parameter_derivation_matches_design
+[  OK  ] parameter_derivation_matches_design (8 ms)
+[ RUN  ] cuckoo_hashing_never_fails_at_load_016
+    cuckoo: 2000 trials, failures=0, max evictions=7
+[  OK  ] cuckoo_hashing_never_fails_at_load_016 (266 ms)
+[ RUN  ] manifest_signature_and_pinning
+[  OK  ] manifest_signature_and_pinning (24 ms)
+[ RUN  ] e2e_tiny_set_scenarios
+    k=8 of 20: tp=8 fn=0 fp=0 label_err=0
+    all 256 members: tp=256 fn=0 fp=0 label_err=0
+    no members: tp=0 fn=0 fp=0 label_err=0
+    single member: tp=1 fn=0 fp=0 label_err=0
+    single non-member: tp=0 fn=0 fp=0 label_err=0
+    k=32 of 256: tp=32 fn=0 fp=0 label_err=0
+[  OK  ] e2e_tiny_set_scenarios (3332 ms)
+[ RUN  ] e2e_multi_partition_set_S
+    S rep 0: tp=64 fn=0 fp=0 label_err=0
+    S rep 1: tp=64 fn=0 fp=0 label_err=0
+    S rep 2: tp=64 fn=0 fp=0 label_err=0
+[  OK  ] e2e_multi_partition_set_S (4030 ms)
+[ RUN  ] e2e_unlabeled_mode
+[  OK  ] e2e_unlabeled_mode (757 ms)
+[ RUN  ] no_false_positives_over_10k_nonmembers
+    non-members tested=10240 false positives=0
+[  OK  ] no_false_positives_over_10k_nonmembers (21018 ms)
+[ RUN  ] tampered_labels_are_detected
+    found=16 labels rejected=16
+[  OK  ] tampered_labels_are_detected (788 ms)
+[ RUN  ] malformed_queries_are_rejected
+[  OK  ] malformed_queries_are_rejected (1242 ms)
+[ RUN  ] fixed_shape_messages_and_work
+    up=3812836 B, down=467008 B, ct*ct=49, pt*ct=142 for every client set
+[  OK  ] fixed_shape_messages_and_work (2859 ms)
+[ RUN  ] noise_budget_positive_after_flooding
+    noise.evaluated = 84 bits
+    noise.final = 14 bits
+    noise.flooded = 14 bits
+    noise.fresh = 143 bits
+    noise.powers = 111 bits
+    client-side min budget = 14 bits
+[  OK  ] noise_budget_positive_after_flooding (1371 ms)
+[ RUN  ] nonmatching_slots_are_masked_uniformly
+    zero slots=0/8190, chi2(63 dof)=89.3495
+[  OK  ] nonmatching_slots_are_masked_uniformly (1256 ms)
+[ RUN  ] baselines_agree_with_psi
+[  OK  ] baselines_agree_with_psi (2 ms)
+
+19 tests, 4523 checks, 0 failed checks, 0 failed tests (37.0241 s)

@@ -1,0 +1,29 @@
+{
+  "set": "L", "N": 16384, "log2q_data": 240, "t": 1146881,
+  "points": [
+    {"flood_bits": 0, "rep": 0, "evaluated": 154, "flooded": 154, "final": 31, "correct": true},
+    {"flood_bits": 0, "rep": 1, "evaluated": 154, "flooded": 154, "final": 31, "correct": true},
+    {"flood_bits": 0, "rep": 2, "evaluated": 154, "flooded": 154, "final": 31, "correct": true},
+    {"flood_bits": 100, "rep": 0, "evaluated": 154, "flooded": 118, "final": 31, "correct": true},
+    {"flood_bits": 100, "rep": 1, "evaluated": 154, "flooded": 118, "final": 31, "correct": true},
+    {"flood_bits": 100, "rep": 2, "evaluated": 154, "flooded": 118, "final": 31, "correct": true},
+    {"flood_bits": 140, "rep": 0, "evaluated": 154, "flooded": 78, "final": 31, "correct": true},
+    {"flood_bits": 140, "rep": 1, "evaluated": 154, "flooded": 78, "final": 31, "correct": true},
+    {"flood_bits": 140, "rep": 2, "evaluated": 154, "flooded": 78, "final": 31, "correct": true},
+    {"flood_bits": 160, "rep": 0, "evaluated": 154, "flooded": 58, "final": 31, "correct": true},
+    {"flood_bits": 160, "rep": 1, "evaluated": 154, "flooded": 58, "final": 31, "correct": true},
+    {"flood_bits": 160, "rep": 2, "evaluated": 154, "flooded": 58, "final": 31, "correct": true},
+    {"flood_bits": 170, "rep": 0, "evaluated": 154, "flooded": 48, "final": 31, "correct": true},
+    {"flood_bits": 170, "rep": 1, "evaluated": 154, "flooded": 48, "final": 31, "correct": true},
+    {"flood_bits": 170, "rep": 2, "evaluated": 154, "flooded": 48, "final": 31, "correct": true},
+    {"flood_bits": 180, "rep": 0, "evaluated": 154, "flooded": 38, "final": 31, "correct": true},
+    {"flood_bits": 180, "rep": 1, "evaluated": 154, "flooded": 38, "final": 31, "correct": true},
+    {"flood_bits": 180, "rep": 2, "evaluated": 154, "flooded": 38, "final": 31, "correct": true},
+    {"flood_bits": 190, "rep": 0, "evaluated": 154, "flooded": 28, "final": 28, "correct": true},
+    {"flood_bits": 190, "rep": 1, "evaluated": 154, "flooded": 28, "final": 28, "correct": true},
+    {"flood_bits": 190, "rep": 2, "evaluated": 154, "flooded": 28, "final": 28, "correct": true},
+    {"flood_bits": 200, "rep": 0, "evaluated": 154, "flooded": 18, "final": 18, "correct": true},
+    {"flood_bits": 200, "rep": 1, "evaluated": 154, "flooded": 18, "final": 18, "correct": true},
+    {"flood_bits": 200, "rep": 2, "evaluated": 154, "flooded": 18, "final": 18, "correct": true}
+  ]
+}

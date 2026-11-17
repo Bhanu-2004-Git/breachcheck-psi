@@ -1,0 +1,14 @@
+Client: OPRF blind & 13.5 & 12.9 & 13.1 & 13.2 & 13.1 & 13.1 \\
+Server: OPRF eval + DLEQ proof & 25.3 & 23.5 & 23.5 & 23.6 & 23.6 & 23.7 \\
+Client: verify proof + finalize & 37.3 & 37.7 & 36.9 & 36.9 & 36.9 & 37.0 \\
+Client: cuckoo + keygen + encrypt & 32.0 & 31.4 & 31.4 & 30.5 & 88.0 & 84.6 \\
+Server: load + validate & 11.7 & 11.9 & 12.0 & 11.6 & 35.5 & 33.0 \\
+Server: powers (49 ct$\times$ct) & 532 & 299 & 550 & 283 & 1,719 & 857 \\
+Server: partition evaluation & 220 & 106 & 2,112 & 1,067 & 3,401 & 1,713 \\
+Server: rerandomize + flood + mod-switch & 31.0 & 16.6 & 285 & 164 & 381 & 205 \\
+Client: unpack + decrypt + decode & 6.1 & 5.9 & 54.7 & 56.3 & 69.5 & 71.2 \\
+\midrule
+Server total & 848 & 454 & 2,994 & 1,563 & 5,541 & 2,827 \\
+Client total & 89.0 & 89.9 & 136 & 144 & 208 & 205 \\
+\textbf{Compute total} & \textbf{937} & \textbf{544} & \textbf{3,129} & \textbf{1,707} & \textbf{5,749} & \textbf{3,032} \\
+\quad server IQR & 805--876 & 448--485 & 2,879--3,118 & 1,505--1,635 & 5,410--5,574 & 2,806--2,948 \\

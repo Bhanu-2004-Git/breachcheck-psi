@@ -1,0 +1,93 @@
+   flood M b=0 rep=0 final=28 correct=1
+   flood M b=0 rep=1 final=28 correct=1
+   flood M b=0 rep=2 final=28 correct=1
+   flood M b=60 rep=0 final=28 correct=1
+   flood M b=60 rep=1 final=28 correct=1
+   flood M b=60 rep=2 final=28 correct=1
+   flood M b=90 rep=0 final=28 correct=1
+   flood M b=90 rep=1 final=28 correct=1
+   flood M b=90 rep=2 final=28 correct=1
+   flood M b=110 rep=0 final=28 correct=1
+   flood M b=110 rep=1 final=28 correct=1
+   flood M b=110 rep=2 final=28 correct=1
+   flood M b=120 rep=0 final=26 correct=1
+   flood M b=120 rep=1 final=26 correct=1
+   flood M b=120 rep=2 final=26 correct=1
+   flood M b=132 rep=0 final=14 correct=1
+   flood M b=132 rep=1 final=14 correct=1
+   flood M b=132 rep=2 final=14 correct=1
+   flood M b=140 rep=0 final=6 correct=1
+   flood M b=140 rep=1 final=6 correct=1
+   flood M b=140 rep=2 final=6 correct=1
+   flood M b=145 rep=0 final=1 correct=1
+   flood M b=145 rep=1 final=1 correct=1
+   flood M b=145 rep=2 final=1 correct=1
+   flood M b=150 rep=0 final=0 correct=0
+   flood M b=150 rep=1 final=0 correct=0
+   flood M b=150 rep=2 final=0 correct=0
+   flood M b=155 rep=0 final=0 correct=0
+   flood M b=155 rep=1 final=0 correct=0
+   flood M b=155 rep=2 final=0 correct=0
+   flood L b=0 rep=0 final=31 correct=1
+   flood L b=0 rep=1 final=31 correct=1
+   flood L b=0 rep=2 final=31 correct=1
+   flood L b=100 rep=0 final=31 correct=1
+   flood L b=100 rep=1 final=31 correct=1
+   flood L b=100 rep=2 final=31 correct=1
+   flood L b=140 rep=0 final=31 correct=1
+   flood L b=140 rep=1 final=31 correct=1
+   flood L b=140 rep=2 final=31 correct=1
+   flood L b=160 rep=0 final=31 correct=1
+   flood L b=160 rep=1 final=31 correct=1
+   flood L b=160 rep=2 final=31 correct=1
+   flood L b=170 rep=0 final=31 correct=1
+   flood L b=170 rep=1 final=31 correct=1
+   flood L b=170 rep=2 final=31 correct=1
+   flood L b=180 rep=0 final=31 correct=1
+   flood L b=180 rep=1 final=31 correct=1
+   flood L b=180 rep=2 final=31 correct=1
+   flood L b=190 rep=0 final=28 correct=1
+   flood L b=190 rep=1 final=28 correct=1
+   flood L b=190 rep=2 final=28 correct=1
+   flood L b=200 rep=0 final=18 correct=1
+   flood L b=200 rep=1 final=18 correct=1
+   flood L b=200 rep=2 final=18 correct=1
+== set=S N=8192 log2q=218 (data 168) t=1097729 n=65536 m=256 B=1638 d=63 alpha=4 C=252 window=8^2 (14 cts) flood=132 labeled=1
+   preprocessing 2.18014 s
+   threads=1 rep=0 server 848.464 ms, client 88.4773 ms, tp=32 fp=0
+   threads=1 rep=1 server 881.783 ms, client 88.7332 ms, tp=32 fp=0
+   threads=1 rep=2 server 795.723 ms, client 90.071 ms, tp=32 fp=0
+   threads=1 rep=3 server 814.023 ms, client 88.9554 ms, tp=32 fp=0
+   threads=1 rep=4 server 870.169 ms, client 102.011 ms, tp=32 fp=0
+   threads=2 rep=0 server 474.905 ms, client 92.541 ms, tp=32 fp=0
+   threads=2 rep=1 server 448.238 ms, client 85.1431 ms, tp=32 fp=0
+   threads=2 rep=2 server 447.519 ms, client 85.7423 ms, tp=32 fp=0
+   threads=2 rep=3 server 495.146 ms, client 105.637 ms, tp=32 fp=0
+   threads=2 rep=4 server 453.916 ms, client 89.8824 ms, tp=32 fp=0
+   wrote results/bench_S.json
+== set=M N=8192 log2q=218 (data 168) t=1097729 n=1048576 m=256 B=1638 d=63 alpha=37 C=2331 window=8^2 (14 cts) flood=132 labeled=1
+   preprocessing 33.5653 s
+   threads=1 rep=0 server 2946.68 ms, client 134.926 ms, tp=32 fp=0
+   threads=1 rep=1 server 2993.63 ms, client 139.383 ms, tp=32 fp=0
+   threads=1 rep=2 server 3060.48 ms, client 152.306 ms, tp=32 fp=0
+   threads=1 rep=3 server 3175.95 ms, client 135.521 ms, tp=32 fp=0
+   threads=1 rep=4 server 2811.67 ms, client 132.53 ms, tp=32 fp=0
+   threads=2 rep=0 server 1478.28 ms, client 149.853 ms, tp=32 fp=0
+   threads=2 rep=1 server 1655.9 ms, client 144.315 ms, tp=32 fp=0
+   threads=2 rep=2 server 1614.06 ms, client 145.856 ms, tp=32 fp=0
+   threads=2 rep=3 server 1562.7 ms, client 131.526 ms, tp=32 fp=0
+   threads=2 rep=4 server 1532.02 ms, client 140.666 ms, tp=32 fp=0
+   wrote results/bench_M.json
+== set=L N=16384 log2q=300 (data 240) t=1146881 n=1048576 m=256 B=3276 d=63 alpha=20 C=1260 window=8^2 (14 cts) flood=170 labeled=1
+   preprocessing 34.5921 s
+   threads=1 rep=0 server 5588.59 ms, client 207.82 ms, tp=32 fp=0
+   threads=1 rep=1 server 5434.59 ms, client 218.284 ms, tp=32 fp=0
+   threads=1 rep=2 server 5386.12 ms, client 203.165 ms, tp=32 fp=0
+   threads=1 rep=3 server 5560.28 ms, client 208.057 ms, tp=32 fp=0
+   threads=1 rep=4 server 5540.85 ms, client 204.174 ms, tp=32 fp=0
+   threads=2 rep=0 server 2974.04 ms, client 212.404 ms, tp=32 fp=0
+   threads=2 rep=1 server 2790.46 ms, client 209.629 ms, tp=32 fp=0
+   threads=2 rep=2 server 2827.27 ms, client 204.402 ms, tp=32 fp=0
+   threads=2 rep=3 server 2822.3 ms, client 199.943 ms, tp=32 fp=0
+   threads=2 rep=4 server 2922.37 ms, client 204.686 ms, tp=32 fp=0
+   wrote results/bench_L.json

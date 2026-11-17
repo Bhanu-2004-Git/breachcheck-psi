@@ -1,0 +1,6 @@
+build/
+build.configure.log
+report/*.aux
+report/*.log
+report/*.out
+__pycache__/

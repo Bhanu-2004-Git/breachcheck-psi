@@ -1,0 +1,9 @@
+== set=M N=8192 log2q=218 (data 168) t=1097729 n=4194304 m=256 B=1638 d=63 alpha=134 C=8442 window=8^2 (14 cts) flood=132 labeled=1
+   preprocessing 136.645 s
+   threads=1 rep=0 server 9352.02 ms, client 257.627 ms, tp=32 fp=0
+   threads=1 rep=1 server 9141.6 ms, client 247.958 ms, tp=32 fp=0
+   threads=1 rep=2 server 9045.28 ms, client 247.95 ms, tp=32 fp=0
+   threads=2 rep=0 server 4675.01 ms, client 250.834 ms, tp=32 fp=0
+   threads=2 rep=1 server 4650.77 ms, client 253.057 ms, tp=32 fp=0
+   threads=2 rep=2 server 4786.83 ms, client 256.151 ms, tp=32 fp=0
+   wrote results/bench_M_n22.json
